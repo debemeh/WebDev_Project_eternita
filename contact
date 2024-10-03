@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ff6176;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        .contact-info {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px 
+        }
+        .contact-info p {
+            font-size: 18px;
+            color: #333;
+        }
+        .contact-info a {
+            color: #0066cc;
+            text-decoration: none;
+        }
+        .social-media {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .social-media a {
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 24px;
+        }
+        .social-media a i {
+            color: #333;
+        }
+        .social-media a:hover i {
+            color: #0066cc;
+        }
+      
+        h3 {
+            text-align: center;
+            color: #333;
+        }
+      .form-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            width: 100%;
+            max-width: 500px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        label {
+            font-size: 18px;
+            margin-bottom: 5px;
+            color: #333;
+        }
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+        input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #0066cc;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+            align-self: center;
+        }
+        input[type="submit"]:hover {
+            background-color: #0055a3;
+        }
+        
+        
+       
+        footer {
+            text-align: center;
+            padding: 20px;
+            margin-top: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Contact Us</h1>
+        <div class="contact-info">
+            <p>Feel free to reach out to us at any time. We are here to help!</p>
+            
+          <p><strong>Email:</strong> <a href="mailto:enchantedlocksinfo@company.com">enchantedlocksinfo@company.com</a></p>
+            
+          <p><strong>Phone:</strong> +01-763-097</p>
+        </div>
+
+        <div class="social-media">
+            <h2>Follow us on Social Media</h2>
+          
+            <a href="https://www.facebook.com/enchantedlocks" target="_blank"><i class="fa fa-facebook"></i> Facebook</a>
+            <a href="https://www.twitter.com/enchantedlocks" target="_blank"><i class="fa fa-twitter"></i> Twitter</a>
+            <a href="https://www.instagram.com/enchantedlocks" target="_blank"><i class="fa fa-instagram"></i> Instagram</a>
+            <a href="https://www.linkedin.com/company/enchantedlocks" target="_blank"><i class="fa fa-linkedin"></i> LinkedIn</a>
+        </div>
+    </div>
+  
+   <h3>Feedback</h3>
+
+<form action="/action_page.php" method="get">
+  <label for="fname">First name:</label>
+  <input type="text" id="fname" name="fname"><br><br>
+  
+  <label for="lname">Last name:</label>
+  <input type="text" id="lname" name="lname"><br><br>
+  
+<p>Tell us how we can improve!</p>
+<textarea id="feedback" name="feedback" rows="5" cols="33">
+ 
+</textarea>
+  <input type="submit" value="Submit">
+</form>
+        
+        
+    
+    <footer>
+        <p>&copy; 2024 Enchanted Locks. All rights reserved.</p>
+    </footer>
+
+    <!-- Font Awesome for social media icons -->
+ 
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+  
+  
+  
+  </head>
+<body>
+
+    
+
+</body>
+</html>
