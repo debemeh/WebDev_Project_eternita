@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beauty Blog FAQ</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff0f5;
+            color: #333;
+        }
+
+        .faq-container {
+            width: 80%;
+            max-width: 600px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 2em;
+            color: #ff69b4;
+            margin-bottom: 20px;
+        }
+
+        .faq-item {
+            margin-bottom: 10px;
+        }
+
+        .faq-question {
+            display: block;
+            padding: 15px;
+            font-size: 1.1em;
+            color: #333;
+            cursor: pointer;
+            background-color: #ffe4e1;
+            border: 1px solid #ff69b4;
+            border-radius: 5px;
+        }
+
+        .faq-answer {
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease;
+            padding-left: 15px;
+        }
+
+        .faq-answer p {
+            padding: 10px;
+            color: #555;
+        }
+
+        input[type="checkbox"] {
+            display: none;
+        }
+
+        input[type="checkbox"]:checked ~ .faq-answer {
+            max-height: 200px; /* Adjust based on answer length */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="faq-container">
+        <h1>Frequently Asked Questions</h1>
+
+        <div class="faq-item">
+            <input type="checkbox" id="faq1">
+            <label for="faq1" class="faq-question">What is the best skincare routine?</label>
+            <div class="faq-answer">
+                <p>A good skincare routine includes cleansing, toning, moisturizing, and applying SPF daily. Adjust products based on your skin type for best results.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <input type="checkbox" id="faq2">
+            <label for="faq2" class="faq-question">How do I choose the right foundation shade?</label>
+            <div class="faq-answer">
+                <p>Test foundation shades on your jawline or neck and check in natural light to find the closest match to your skin tone.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <input type="checkbox" id="faq3">
+            <label for="faq3" class="faq-question">How can I keep my makeup long-lasting?</label>
+            <div class="faq-answer">
+                <p>Use a primer, set your makeup with a setting spray, and carry blotting papers or setting powder to touch up throughout the day.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <input type="checkbox" id="faq4">
+            <label for="faq4" class="faq-question">What's the best way to take care of my hair?</label>
+            <div class="faq-answer">
+                <p>Regular trims, using sulfate-free shampoo, deep conditioning, and protecting hair from heat can help maintain healthy hair.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <input type="checkbox" id="faq5">
+            <label for="faq5" class="faq-question">How often should I exfoliate my skin?</label>
+            <div class="faq-answer">
+                <p>Exfoliating 1-3 times a week is ideal, depending on your skin type. Avoid over-exfoliating, which can irritate the skin.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <input type="checkbox" id="faq6">
+            <label for="faq6" class="faq-question">How can I prevent my lipstick from smudging?</label>
+            <div class="faq-answer">
+                <p>Apply a lip liner, blot with a tissue, and set with translucent powder to prevent smudging.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <input type="checkbox" id="faq7">
+            <label for="faq7" class="faq-question">What's the best way to remove makeup?</label>
+            <div class="faq-answer">
+                <p>Use a gentle makeup remover or micellar water, followed by a facial cleanser to ensure all traces are removed.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <input type="checkbox" id="faq8">
+            <label for="faq8" class="faq-question">What are some tips for applying eyeliner?</label>
+            <div class="faq-answer">
+                <p>Start with small strokes along the lash line, use tape for a precise wing, and choose waterproof eyeliner for long wear.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <input type="checkbox" id="faq9">
+            <label for="faq9" class="faq-question">How can I reduce frizz in my hair?</label>
+            <div class="faq-answer">
+                <p>Use a hydrating shampoo, apply anti-frizz serum, and dry with a microfiber towel to help reduce frizz.</p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+</html>
+
