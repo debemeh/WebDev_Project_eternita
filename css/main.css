@@ -4,6 +4,17 @@ body {
     padding: 0;
     background-color: #fef6f6;
     color: #333;
+
+    /* Adding a transition effect to navigation links */
+nav a {
+    color: #FFFFFF; /* Initial color */
+    text-decoration: none;
+    transition: color 0.3s ease; /* Adds a smooth transition on color change */
+}
+
+nav a:hover {
+    color: #ff6176; /* Color when hovered */
+}
 }
 header {
     background-color: #ff6176;
