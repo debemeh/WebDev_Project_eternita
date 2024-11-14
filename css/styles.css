@@ -50,6 +50,13 @@ footer {
     width: 100%;
 }
 
+/*flex box*/
+@media screen and (max-width: 700px) {
+    .center, nav, .gallery {   
+      flex-direction: column;
+    }
+}
+
 body {
     font-family: Arial, sans-serif;
     background-color: #ff6176;
