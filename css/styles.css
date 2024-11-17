@@ -8,10 +8,10 @@ body {
 }
 
 header {
-    background-color: #ff6176;
+    background-color: #fffdd0;
     padding: 20px;
     text-align: left;
-    color: white;
+    color: midnightblue;
 }
 
 nav {
@@ -19,7 +19,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: midnightblue;
     margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
@@ -27,31 +27,31 @@ nav a {
 }
 
 nav a:hover {
-    color: #ff6176; /* Color when hovered */
+    color: blue; /* Color when hovered */
 }
 
 section {
     padding: 20px;
     margin: 20px;
-    border: 1px solid #ff6176;
+    border: 1px solid #fffdd0;
     border-radius: 8px;
-    background-color: #fff;
+    background-color: midnightblue;
 }
 
 h1 {
     text-align: center;
-    color: #ffffff;
+    color: midnightblue;
     margin-bottom: 30px;
 }
 
 h2 {
     text-align: center;
-    color: #d63384;
+    color: #000080;
 }
 
 h3 {
     text-align: center;
-    color: #ffffff;
+    color: midnightblue;
 }
 
 .gallery {
