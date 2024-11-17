@@ -68,6 +68,7 @@ form p {
     display: flex;
     flex-direction: column;
     width: 100%;
+    color: #fff;
 }
 label {
     font-size: 18px;
