@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #ff6176;
+    background-color: midnightblue;
     margin: 0;
     padding: 0;
 }
@@ -11,20 +11,20 @@ body {
 }
 h1 {
     text-align: center;
-    color: #333;
+    color: #ffffff;
 }
 .contact-info {
-    background-color: #fff;
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px 
 }
 .contact-info p {
     font-size: 18px;
-    color: #333;
+    color: midnightblue;
 }
 .contact-info a {
-    color: #0066cc;
+    color: #ffffdd0;
     text-decoration: none;
 }
 .social-media {
@@ -37,15 +37,20 @@ h1 {
     font-size: 24px;
 }
 .social-media a i {
-    color: #333;
+    color: #ffffff;
 }
 .social-media a:hover i {
     color: #0066cc;
 }
 
+h2 {
+    text-align: center;
+    color: #fffdd0;
+}
+
 h3 {
     text-align: center;
-    color: #333;
+    color: #fffdd0;
 }
 .form-container {
     display: flex;
@@ -67,7 +72,7 @@ form {
 label {
     font-size: 18px;
     margin-bottom: 5px;
-    color: #333;
+    color: #fff;
 }
 input[type="text"],
 textarea {
