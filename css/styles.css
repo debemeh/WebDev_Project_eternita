@@ -12,10 +12,12 @@ header {
     padding: 20px;
     text-align: left;
     color: midnightblue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 nav {
     margin: 20px 0;
+    text-align: center;
 }
 
 nav a {
@@ -23,47 +25,48 @@ nav a {
     margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
-    transition: color 0.3s ease; /* Adds a smooth transition on color change */
+    transition: color 0.3s ease; 
 }
 
 nav a:hover {
-    color: blue; /* Color when hovered */
+    color: blue;
+}
+
+h1, h2, h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: midnightblue;
+}
+
+h2 {
+    color: #fffdd0;
+}
+
+h3 {
+    color: midnightblue;
 }
 
 section {
     padding: 20px;
-    margin: 20px;
+    margin: 20px auto;
     border: 1px solid #fffdd0;
     border-radius: 8px;
     background-color: midnightblue;
-}
-
-h1 {
-    text-align: center;
-    color: midnightblue;
-    margin-bottom: 30px;
-}
-
-h2 {
-    text-align: center;
-    color: #FFFDD0;
-    margin: 20px 0;
-}
-
-h3 {
-    text-align: center;
-    color: midnightblue;
-}
-
-title {
-    color: #FFFDD0;
+    max-width: 800px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .gallery {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     gap: 8px;
+    margin: auto;
+    max-width: 600px;
 }
+
 .gallery img {
     width: 100%;
     height: auto;
@@ -71,37 +74,33 @@ title {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     transition: transform 0.3s ease;
 }
+
 .gallery img:hover {
-    transform: scale(2);
+    transform: scale(1.2);
 }
 
 .team-member {
     margin-bottom: 30px;
-    text-align: left;
+    text-align: center;
 }
 
 .team-member img {
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
     margin-bottom: 10px;
-}
-
-/* General Styling */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
 }
 
 .carousel {
     display: flex;
     overflow: hidden;
     width: 100%;
-    max-width: 800px;
+    max-width: 600px;
     margin: auto;
     position: relative;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .carousel-track {
@@ -121,13 +120,11 @@ body {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Hover Effect for Desktop */
 .carousel-item img:hover {
-    transform: scale(1.2);
+    transform: scale(1.1);
     transition: transform 0.3s ease;
 }
 
-/* Buttons */
 .carousel-button {
     position: absolute;
     top: 50%;
@@ -137,6 +134,14 @@ body {
     border: none;
     padding: 10px;
     cursor: pointer;
+    z-index: 10;
+    border-radius: 50%;
+    transition: background 0.3s ease;
+}
+
+.carousel-button:hover {
+    background: rgba(255, 255, 255, 0.8);
+    color: midnightblue;
 }
 
 .carousel-button.left {
@@ -147,28 +152,30 @@ body {
     right: 10px;
 }
 
-
-.container {
-    max-width: 800px;
-    margin: auto;
-    padding: 20px;
-}
-
 footer {
-    text-align: left;
+    text-align: center;
     padding: 20px;
     margin-top: 20px;
     background-color: #333;
     color: #fff;
 }
 
-.center {
-    text-align: left;
-}
-
 /* Responsive Design */
 @media (max-width: 700px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    }
+
+    .carousel {
+        max-width: 100%;
+    }
+
     .carousel-item img:hover {
-        transform: none;
+        transform: none; /* Disable hover zoom for mobile */
     }
 }
