@@ -47,6 +47,7 @@ h1 {
 h2 {
     text-align: center;
     color: #FFFDD0;
+    margin: 20px 0;
 }
 
 h3 {
@@ -92,11 +93,6 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-}
-
-h2 {
-    text-align: center;
-    margin: 20px 0;
 }
 
 .carousel {
@@ -151,13 +147,6 @@ h2 {
     right: 10px;
 }
 
-/* Responsive Design */
-@media (max-width: 700px) {
-    .carousel-item img:hover {
-        transform: none;
-    }
-}
-
 
 .container {
     max-width: 800px;
@@ -177,9 +166,9 @@ footer {
     text-align: left;
 }
 
-/* Responsive design */
-@media screen and (max-width: 700px) {
-    .center, nav, .gallery {
-        flex-direction: column;
+/* Responsive Design */
+@media (max-width: 700px) {
+    .carousel-item img:hover {
+        transform: none;
     }
 }
