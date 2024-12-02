@@ -4,20 +4,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Beauty Blog FAQ</title>
-    <style>
-        * {
+</head>
+    <header>
+        <h1>Enchanted Locks</h1>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="contact.html">Contact Us</a>
+            <a href="about-us.html">About Us</a>
+            <a href="faq.html">FAQs</a>
+            
+        </nav>
+        
+        <style>
+            nav 
+            {
+                margin: 20px 0;
+            }
+            nav a
+            {
+                color: white;
+                margin: 0 15px;
+                text-decoration: none;
+                font-weight: bold;
+                transition: color 0.3s ease; /* Adds a smooth transition on color change */
+            }
+            nav a:hover 
+            {
+                color: #fffdd0; /* Color when hovered */
+            }
+            .dropdown-container 
+            {
+            margin: 20px;
+            }
+            label {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 5px;
+            }
+            * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-        }
-
-        body {
+            }
+            body {
             font-family: Arial, sans-serif;
             background-color: #3892f2;
             color: #fffdd0;
-        }
-
-        .faq-container {
+            }
+            
+            .faq-container {
             width: 80%;
             max-width: 600px;
             margin: 40px auto;
@@ -25,20 +60,17 @@
             background-color: #ffffff;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
-
-        h1 {
+            }
+            h1 {
             text-align: center;
             font-size: 2em;
             color: midnightblue;
             margin-bottom: 20px;
-        }
-
-        .faq-item {
+            }
+            .faq-item {
             margin-bottom: 10px;
-        }
-
-        .faq-question {
+            }
+            .faq-question {
             display: block;
             padding: 15px;
             font-size: 1.1em;
@@ -47,29 +79,25 @@
             background-color: midnightblue;
             border: 1px solid #ffffff;
             border-radius: 5px;
-        }
-
-        .faq-answer {
+            }
+            .faq-answer {
             max-height: 0;
             overflow: hidden;
             transition: max-height 0.3s ease;
             padding-left: 15px;
-        }
-
-        .faq-answer p {
+            }
+            .faq-answer p {
             padding: 10px;
             color: midnightblue;
-        }
-
-        input[type="checkbox"] {
+            }
+            input[type="checkbox"] {
             display: none;
-        }
-
-        input[type="checkbox"]:checked ~ .faq-answer {
+            }
+            input[type="checkbox"]:checked ~ .faq-answer {
             max-height: 200px; /* Adjust based on answer length */
-        }
-    </style>
-</head>
+            }
+        </style>
+    <\header>
 <body>
 
     <div class="faq-container">
