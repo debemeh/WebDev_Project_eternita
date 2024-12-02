@@ -5,6 +5,13 @@ body {
     line-height: 1.6;
     padding: 20px;
 }
+header {
+    background-color: #ffe7e9;
+    padding: 20px;
+    text-align: left;
+    color: midnightblue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 .container {
     max-width: 800px;
     margin: auto;
@@ -23,4 +30,17 @@ h1, h2 {
     height: 150px;
     object-fit: cover;
     margin-bottom: 10px;
+}
+nav {
+  margin: 20px 0;
+}
+nav a {
+  color: #000000;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease; 
+}
+nav a:hover {
+  color: #000000; /* Color when hovered */
 }
