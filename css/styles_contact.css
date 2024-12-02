@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: midnightblue;
+    background-color: #ffb6c1;
     margin: 0;
     padding: 0;
 }
@@ -11,20 +11,20 @@ body {
 }
 h1 {
     text-align: center;
-    color: #ffffff;
+    color: #000000;
 }
 .contact-info {
-    background-color: #ffffff;
+    background-color: #ffe7e9;
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 0 10px 
 }
 .contact-info p {
     font-size: 18px;
-    color: midnightblue;
+    color: #000000;
 }
 .contact-info a {
-    color: #ffffdd0;
+    color: #000000;
     text-decoration: none;
 }
 .social-media {
@@ -37,7 +37,7 @@ h1 {
     font-size: 24px;
 }
 .social-media a i {
-    color: #ffffff;
+    color: #ffe7e9;
 }
 .social-media a:hover i {
     color: #0066cc;
@@ -45,12 +45,19 @@ h1 {
 
 h2 {
     text-align: center;
-    color: #fffdd0;
+    color: #000000;
 }
 
 h3 {
     text-align: center;
-    color: #fffdd0;
+    color: #000000;
+}
+header {
+    background-color: #ffe7e9;
+    padding: 20px;
+    text-align: left;
+    color: midnightblue;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .form-container {
     display: flex;
@@ -68,25 +75,25 @@ form p {
     display: flex;
     flex-direction: column;
     width: 100%;
-    color: #fff;
+    color: #000000;
 }
 label {
     font-size: 18px;
     margin-bottom: 5px;
-    color: #fff;
+    color: #000000;
 }
 input[type="text"],
 textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 15px;
-    border: 1px solid #ccc;
+    border: 3px solid #a94064;
     border-radius: 5px;
     font-size: 16px;
 }
 input[type="submit"] {
     padding: 10px 20px;
-    background-color: #0066cc;
+    background-color: #a94064;
     color: white;
     border: none;
     border-radius: 5px;
@@ -104,6 +111,19 @@ footer {
     text-align: center;
     padding: 20px;
     margin-top: 20px;
-    background-color: #333;
+    background-color: #a94064;
     color: #fff;
+}
+nav {
+  margin: 20px 0;
+}
+nav a {
+  color: #000000;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease; 
+}
+nav a:hover {
+  color: #000000; /* Color when hovered */
 }
