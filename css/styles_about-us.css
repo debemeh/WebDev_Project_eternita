@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: midnightblue;
-    color: #fffdd0;
+    background-color: #ffb6c1;
+    color: #000000;
     line-height: 1.6;
     padding: 20px;
 }
@@ -11,7 +11,7 @@ body {
 }
 h1, h2 {
     text-align: center;
-    color: #fffdd0;
+    color: #000000;
 }
 .team-member {
     margin-bottom: 30px;
