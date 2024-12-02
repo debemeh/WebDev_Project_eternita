@@ -2,16 +2,16 @@ body {
     font-family: 'Montserrat', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: midnightblue;
-    color: #fffdd0;
+    background-color: #ffb6c1;
+    color: #000000;
     line-height: 1.6;
 }
 
 header {
-    background-color: #fffdd0;
+    background-color: #ffe7e9;
     padding: 20px;
     text-align: left;
-    color: midnightblue;
+    color: #000000;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
@@ -21,7 +21,7 @@ nav {
 }
 
 nav a {
-    color: midnightblue;
+    color: #000000;
     margin: 0 15px;
     text-decoration: none;
     font-weight: bold;
@@ -29,7 +29,7 @@ nav a {
 }
 
 nav a:hover {
-    color: blue;
+    color: #000000;
 }
 
 h1, h2, h3 {
@@ -38,23 +38,23 @@ h1, h2, h3 {
 }
 
 h1 {
-    color: midnightblue;
+    color: #000000;
 }
 
 h2 {
-    color: #fffdd0;
+    color: #000000;
 }
 
 h3 {
-    color: midnightblue;
+    color: #000000;
 }
 
 section {
     padding: 20px;
     margin: 20px auto;
-    border: 1px solid #fffdd0;
+    border: 10px solid #a94064;
     border-radius: 8px;
-    background-color: midnightblue;
+    background-color: #ffe7e9;
     max-width: 800px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
